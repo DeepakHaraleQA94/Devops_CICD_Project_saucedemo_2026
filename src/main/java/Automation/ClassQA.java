@@ -19,7 +19,7 @@ public class ClassQA {
 	
 	 String homeURL = driver.getCurrentUrl();
 	 System.out.println(homeURL);
-	 
+	 System.out.println("hii");
 	 if(homeURL.equals("https://www.saucedemo.com/inventory.html")) {
 		 System.out.println("TC Passed");
 	 }else {
